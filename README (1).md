@@ -3,7 +3,7 @@
 
 The files in this project were used to configure the cloud network displayed below.
 
-[![Diagram1](https://github.com/mbjordal/blast-off/blob/main/Diagram1.png)
+![Diagram1](https://github.com/mbjordal/blast-off/blob/main/Diagram1.png)
 
 The following files were used to deploy a live ELK server on Azure.
 [![pentest.yml](https://github.com/mbjordal/blast-off/blob/main/Ansible/pentest.yml) - used to install webservers Web1 and Web2
