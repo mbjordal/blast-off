@@ -1,5 +1,5 @@
 #### University of Minnesota Cybersecurity Bootcamp Project #1
-# Deployement of Live ELK Stack Server
+# Deployment of Live ELK Stack Server
 
 The files in this project were used to configure the cloud network displayed below.
 
