@@ -17,7 +17,7 @@ The following files were used to deploy a live ELK server on Azure.
 - Place webservers behind a load balancer to ensure high availability
 - Gather, process and view log data of webservers
 
-A cloud netrworK was established in Azure with access through the JumpBox provisioner virtual machine (VM). This VM was configured with Docker to deploy an Ansible container. Use of the ansible-playbook [pentest.yml](https://github.com/mbjordal/blast-off/blob/main/Ansible/pentest.yml) configured the webservers with DVWA.
+A cloud network was established in Azure with access through the JumpBox provisioner virtual machine (VM). This VM was configured with Docker to deploy an Ansible container. Use of the ansible-playbook [pentest.yml](https://github.com/mbjordal/blast-off/blob/main/Ansible/pentest.yml) configured the webservers with DVWA.
 A separate network containing the VM Elk Server that was configured with the playbook [elk.yml] (https://github.com/mbjordal/blast-off/blob/main/Ansible/elk.yml). This network was peered to the original network to be able to receive log data.
 Finally, Filebeat software was installed on the servers to create and monitor readable log files through the use of the [filebeat-playbook.yml](https://github.com/mbjordal/blast-off/blob/main/Ansible/filebeat-playbook.yml)
 
